@@ -1,7 +1,8 @@
-# CampusSimulator
+# Campus Scenario Simulator
+2025 - Mobile Communications Research Group - UPC
 
 The software included here incorporates different Matlab scripts that simulate the Campus Nord scenario of Universitat Politècnica de Catalunya (UPC) where a number of base stations are deployed providing service to different User Equipments (UE). Some of these UEs can be configured to act as relays providing service to other UEs. 
-The following figure illustrates the Campus Nord scenario. The environment is a 350 m  125 m area with 25 buildings of 3 floors. The modelled area corresponds to the rectangle highlighted in red. The names of the buildings A1,...,D6 are also included in the figure. The positions of the three base stations are also included.
+The following figure illustrates the Campus Nord scenario. The environment is a 350 m x 125 m area with 25 buildings of 3 floors. The modelled area corresponds to the rectangle highlighted in red. The names of the buildings A1,...,D6 are also included in the figure. The positions of the three base stations are also included.
  
 ![image](https://github.com/user-attachments/assets/287a624c-8f7c-4b19-aac1-fb1a4597d8d7)
 
@@ -28,7 +29,7 @@ The main scripts and functions included are:
 
 The rest of included scripts are called by the ones listed above.
 
-# EXECUTION PROCEDURE:
+# EXECUTION PROCEDURE
 
 Step 1) Create the scenario with the buildings and the trajectories:
 
@@ -51,7 +52,7 @@ Step 4) Simulation (this requires that the scenario file ‘CampusScenario_3BSs.
 - Configure the parameters of the simulation (e.g. Tx powers, noise, mobility model parameters, etc.)
 - Execute script main.m 
 
-# RESULTS:
+# RESULTS
 The execution of main.m generates the following files:
 
 - Results file (name of the file is specified in "config.output_file_name" variable): Details of the statistics per simulation and in global. Also includes the configuration parameters. 
