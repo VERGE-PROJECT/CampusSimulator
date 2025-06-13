@@ -1,4 +1,4 @@
-# Campus Scenario RAN Simulator
+# University Campus Scenario RAN Simulator
 2025 - Mobile Communications Research Group - UPC
 
 The software included here incorporates different Matlab scripts that simulate a Radio Access Network (RAN) in the Campus Nord scenario of Universitat Politècnica de Catalunya (UPC) where a number of base stations are deployed providing service to different User Equipments (UE). Some of these UEs can be configured to act as relays providing service to other UEs. 
